@@ -30,7 +30,7 @@ const Navbar = () => {
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Aboutr"
+            href="#About"
             className="cursor-pointer hover:text-gray-400"
           >
             About
