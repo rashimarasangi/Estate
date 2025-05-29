@@ -1,4 +1,5 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 
 const Contact = () => {
 
@@ -20,11 +21,11 @@ const [result, setResult] = React.useState("");
 
     if (data.success) {
       setResult("");
-      alert("Form submitted Successfully")
+      toast.success("Form Submittd Successfully")
       event.target.reset();
     } else {
       console.log("Error", data);
-      alert(data.message)
+      toast.error(data.message)
       setResult("");
     }
   };
