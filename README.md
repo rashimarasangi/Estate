@@ -1,3 +1,29 @@
+# 🏡 RealState – Real Estate Frontend
+
+RealState is a **modern and responsive real estate website frontend** built using **React.js**, **Vite**, and **Tailwind CSS**.  
+It showcases property listings and provides a clean UI/UX suitable for real estate platforms.
+
+
+
+## 🚀 Features
+
+- ⚛️ Built with **React 19** and **Vite** for fast development and performance  
+- 🎨 Styled using **Tailwind CSS** for responsive and modern layouts  
+- 🏘️ Property listing sections with cards, details, and filters  
+- 🔔 Notifications for user interactions via **react-toastify**  
+- 🧭 Smooth navigation and clean component structure  
+- 🔥 Easy to extend with backend APIs for dynamic property data  
+
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| React.js | Component-based UI framework |
+| Vite | Fast bundler and development server |
+| Tailwind CSS | Utility-first CSS framework for styling |
+| React Toastify | Notification system |
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
